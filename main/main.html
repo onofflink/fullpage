@@ -9,7 +9,9 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="../css/w3.css">
-	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
 	<link href="../css/fullpage.css" rel="stylesheet">
 	<script src="../js/jquery-3.3.1.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
@@ -26,26 +28,26 @@
 	</div>
 
 	<div class="page" id="box1">
-		<ul class="cities clear">
-			<li class="city ani" data-ani="leftAni" data-speed="1s">
-				<img src="../img/newyork.jpg" class="city_img img">
-				<div class="city_name">MODOOM CALL</div>
-				<div class="city_day">2019.4.31</div>
-				<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+		<ul class="onoffs clear">
+			<li class="onoff ani" data-ani="leftAni" data-speed="1s">
+				<img src="../img/newyork.jpg" class="onoff_img img">
+				<div class="onoff_name">MODOOM CALL</div>
+				<div class="onoff_day">2019.4.31</div>
+				<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 				<button type="button" class="w3-button w3-black">Subscribe</button>
 			</li>
-			<li class="city ani" data-ani="scaleAni" data-speed="1.5s">
-				<img src="../img/paris.jpg" class="city_img img">
-				<div class="city_name">MODOOM Meeting</div>
-				<div class="city_day">2019.04.03</div>
-				<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+			<li class="onoff ani" data-ani="scaleAni" data-speed="1.5s">
+				<img src="../img/paris.jpg" class="onoff_img img">
+				<div class="onoff_name">MODOOM Meeting</div>
+				<div class="onoff_day">2019.04.03</div>
+				<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 				<button type="button" class="w3-button w3-black">Join a meeting</button>
 			</li>
-			<li class="city ani" data-ani="rightAni" data-speed="1s">
-				<img src="../img/sanfran.jpg" class="city_img img">
-				<div class="city_name">MODOOM Event</div>
-				<div class="city_day">2019.04.07</div>
-				<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+			<li class="onoff ani" data-ani="rightAni" data-speed="1s">
+				<img src="../img/sanfran.jpg" class="onoff_img img">
+				<div class="onoff_name">MODOOM Event</div>
+				<div class="onoff_day">2019.04.07</div>
+				<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 				<button type="button" class="w3-button w3-black">Buy an event</button>
 			</li>
 		</ul>
@@ -54,55 +56,101 @@
 		<div class="wrap">
 			<div class="title">WebEx Call</div>
 			<div class="summary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-			<ul class="cities clear">
-				<li class="city ani" data-ani="leftAni" data-speed="1s">
-					<img src="../img/newyork.jpg" class="city_img img">
-					<div class="city_name">By invitation</div>
-					<div class="city_day">2019.04.31</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+			<ul class="onoffs clear">
+				<li class="onoff ani" data-ani="leftAni" data-speed="1s">
+					<img src="../img/newyork.jpg" class="onoff_img img">
+					<div class="onoff_name">Direct invitation</div>
+					<div class="onoff_day">2019.04.31</div>
+					<div class="onoff_cont">Ateendee receives an invitation sent by the host with date and passcodes to participate in a meetng. Service and toll charges are separate and assumed by the host and ateendee respectively.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
-				<li class="city ani" data-ani="scaleAni" data-speed="1.5s">
-					<img src="../img/paris.jpg" class="city_img img">
-					<div class="city_name">Operator-assisted</div>
-					<div class="city_day">2019.01.03</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+				<li class="onoff ani" data-ani="scaleAni" data-speed="1.5s">
+					<img src="../img/paris.jpg" class="onoff_img img">
+					<div class="onoff_name">Operator-assisted</div>
+					<div class="onoff_day">2019.01.03</div>
+					<div class="onoff_cont">Our operators will call and direct the attendees on the meeting day to participate in the meeting. Service and toll are charged to host.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
-				<li class="city ani" data-ani="rightAni" data-speed="1s">
-					<img src="../img/sanfran.jpg" class="city_img img">
-					<div class="city_name">system-opearted</div>
-					<div class="city_day">2019.04.07</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
-					<button type="button" class="w3-button w3-black">Buy Ticket</button>
+				<li class="onoff ani" data-ani="rightAni" data-speed="1s">
+					<img src="../img/sanfran.jpg" class="onoff_img img">
+					<div class="onoff_name">system-opearted</div>
+					<div class="onoff_day">2019.04.07</div>
+					<div class="onoff_cont">As a subscribed host announces a meeting, our system will call on the attendees on the host's list and directs them to participate. </div>
+					<button type="button" class="w3-button w3-black">Subscribe</button>
 				</li>
-            </ul>
-        </div>
+			</ul>
+		</div>
+			<div class="container">
+				<h1>How to Subscribe</h1>
+			  <div class="row offer-cards">
+				  <div class="col-xs-12 col-sm-4 offer-card">
+					  <div class="card-body">
+						  <a href="#">Make an inquiry</a>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut purus velit. Ut justo ligula, molestie non
+							  varius vel, posuere vitae est. Phasellus mauris ante, aliquam et laoreet ut, iaculis id libero. Sed sit amet
+							  libero id neque ullamcorper vulputate. Proin et diam nulla. Maecenas varius vitae sapien id tincidunt. Nullam
+							  semper accumsan ornare. Curabitur luctus mi id eros mollis scelerisque. Pellentesque ultrices, est ut volutpat
+							  vestibulum, felis risus fringilla velit, a tincidunt odio est ac sapien.</p>
+					  </div>
+				  </div>
+				  <div class="col-xs-12 col-sm-3 offer-card">
+					  <div class="card-body">
+						  <a href="#">View our offers</a>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut purus velit. Ut justo ligula, molestie non
+							  varius vel, posuere vitae est. Phasellus mauris ante, aliquam et laoreet ut, iaculis id libero. Sed sit amet
+							  libero id neque ullamcorper vulputate. Proin et diam nulla. Maecenas varius vitae sapien id tincidunt. Nullam
+							  semper accumsan ornare. Curabitur luctus mi id eros mollis scelerisque. Pellentesque ultrices, est ut volutpat
+							  vestibulum, felis risus fringilla velit, a tincidunt odio est ac sapien.</p>
+					  </div>
+				  </div>
+				  <div class="col-xs-12 col-sm-3 offer-card">
+					  <div class="card-body">
+						  <a href="#">Agreenments & provisioning/a>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut purus velit. Ut justo ligula, molestie non
+							 Maecenas varius vitae sapien id tincidunt. Nullam
+							  semper accumsan ornare. Curabitur luctus mi id eros mollis scelerisque. Pellentesque ultrices, est ut volutpat
+							  vestibulum, felis risus fringilla velit, a tincidunt odio est ac sapien.</p>
+					  </div>
+				  </div>
+				  <div class="col-xs-12 col-sm-3 offer-card">
+					  <div class="card-body">
+						  <a href="#">Start with your confirmation packet/a>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut purus velit. Ut justo ligula, molestie non
+							  varius vel, posuere vitae est. Phasellus mauris ante, aliquam et laoreet ut, iaculis id libero. Sed sit amet
+							  libero id neque ullamcorper vulputate. Proin et diam nulla. Maecenas varius vitae sapien id tincidunt. Nullam
+							  semper accumsan ornare. Curabitur luctus mi id eros mollis scelerisque. Pellentesque ultrices, est ut volutpat
+							  vestibulum, felis risus fringilla velit, a tincidunt odio est ac sapien.</p>
+					  </div>
+				  </div>
+			  </div>
+			  </div>
+				 <!-- card section ends -->  
+        
 	</div>
 	<div class="page" id="box3">
 		<div class="wrap">
 			<div class="title">WebEx Meetings</div>
 			<div class="summary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-			<ul class="cities clear">
-				<li class="city ani" data-ani="leftAni" data-speed="1s">
-					<img src="../img/newyork.jpg" class="city_img img">
-					<div class="city_name">Pricing</div>
-					<div class="city_day">2018.12.31</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+			<ul class="onoffs clear">
+				<li class="onoff ani" data-ani="leftAni" data-speed="1s">
+					<img src="../img/newyork.jpg" class="onoff_img img">
+					<div class="onoff_name">Pricing</div>
+					<div class="onoff_day">2018.12.31</div>
+					<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
-				<li class="city ani" data-ani="scaleAni" data-speed="1.5s">
-					<img src="../img/paris.jpg" class="city_img img">
-					<div class="city_name">How-to</div>
-					<div class="city_day">2019.01.03</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+				<li class="onoff ani" data-ani="scaleAni" data-speed="1.5s">
+					<img src="../img/paris.jpg" class="onoff_img img">
+					<div class="onoff_name">How-to</div>
+					<div class="onoff_day">2019.01.03</div>
+					<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
-				<li class="city ani" data-ani="rightAni" data-speed="1s">
-					<img src="../img/sanfran.jpg" class="city_img img">
-					<div class="city_name">Estimate</div>
-					<div class="city_day">2019.01.07</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+				<li class="onoff ani" data-ani="rightAni" data-speed="1s">
+					<img src="../img/sanfran.jpg" class="onoff_img img">
+					<div class="onoff_name">Estimate</div>
+					<div class="onoff_day">2019.01.07</div>
+					<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
 			</ul>
@@ -113,26 +161,26 @@
 		<div class="wrap">
 			<div class="title">WebEx Event</div>
 			<div class="summary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-			<ul class="cities clear">
-				<li class="city ani" data-ani="leftAni" data-speed="1s">
-					<img src="../img/newyork.jpg" class="city_img img">
-					<div class="city_name">By invitation</div>
-					<div class="city_day">2018.12.31</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+			<ul class="onoffs clear">
+				<li class="onoff ani" data-ani="leftAni" data-speed="1s">
+					<img src="../img/newyork.jpg" class="onoff_img img">
+					<div class="onoff_name">By invitation</div>
+					<div class="onoff_day">2018.12.31</div>
+					<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
-				<li class="city ani" data-ani="scaleAni" data-speed="1.5s">
-					<img src="../img/paris.jpg" class="city_img img">
-					<div class="city_name">Operator-assisted</div>
-					<div class="city_day">2019.01.03</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+				<li class="onoff ani" data-ani="scaleAni" data-speed="1.5s">
+					<img src="../img/paris.jpg" class="onoff_img img">
+					<div class="onoff_name">Operator-assisted</div>
+					<div class="onoff_day">2019.01.03</div>
+					<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
-				<li class="city ani" data-ani="rightAni" data-speed="1s">
-					<img src="../img/sanfran.jpg" class="city_img img">
-					<div class="city_name">system-opearted</div>
-					<div class="city_day">2019.01.07</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+				<li class="onoff ani" data-ani="rightAni" data-speed="1s">
+					<img src="../img/sanfran.jpg" class="onoff_img img">
+					<div class="onoff_name">system-opearted</div>
+					<div class="onoff_day">2019.01.07</div>
+					<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
             </ul>
@@ -143,26 +191,26 @@
 		<div class="wrap">
 			<div class="title">WebEx Device</div>
 			<div class="summary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
-			<ul class="cities clear">
-				<li class="city ani" data-ani="leftAni" data-speed="1s">
-					<img src="../img/newyork.jpg" class="city_img img">
-					<div class="city_name">By invitation</div>
-					<div class="city_day">2018.12.31</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+			<ul class="onoffs clear">
+				<li class="onoff ani" data-ani="leftAni" data-speed="1s">
+					<img src="../img/newyork.jpg" class="onoff_img img">
+					<div class="onoff_name">By invitation</div>
+					<div class="onoff_day">2018.12.31</div>
+					<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
-				<li class="city ani" data-ani="scaleAni" data-speed="1.5s">
-					<img src="../img/paris.jpg" class="city_img img">
-					<div class="city_name">Operator-assisted</div>
-					<div class="city_day">2019.01.03</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+				<li class="onoff ani" data-ani="scaleAni" data-speed="1.5s">
+					<img src="../img/paris.jpg" class="onoff_img img">
+					<div class="onoff_name">Operator-assisted</div>
+					<div class="onoff_day">2019.01.03</div>
+					<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
-				<li class="city ani" data-ani="rightAni" data-speed="1s">
-					<img src="../img/sanfran.jpg" class="city_img img">
-					<div class="city_name">system-opearted</div>
-					<div class="city_day">2019.01.07</div>
-					<div class="city_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
+				<li class="onoff ani" data-ani="rightAni" data-speed="1s">
+					<img src="../img/sanfran.jpg" class="onoff_img img">
+					<div class="onoff_name">system-opearted</div>
+					<div class="onoff_day">2019.01.07</div>
+					<div class="onoff_cont">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
 					<button type="button" class="w3-button w3-black">Buy Ticket</button>
 				</li>
             </ul>

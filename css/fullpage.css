@@ -12,18 +12,52 @@ a, a:hover, a:link {text-decoration: none;}
 .wrap {width:100%; max-width:800px; margin:auto;}
 .title {text-align:center; font-size:2rem;}
 .summary {text-align:center; font-size:1.25rem; color:#666; margin:1rem 0;}
-.cities {font-size:0.875rem;}
-.city {float:left; width:32%; padding:0.75em; background-color: #fff;}
-.city:nth-child(2) {margin:0 2%;}
-.city_name {margin:0.5em; font-size:1.125em;}
-.city_day {margin:0.5em; font-size:1em;}
-.city_cont {margin:0.5em; font-size:0.875em;}
+.onoffs {font-size:0.875rem;}
+.onoff {float:left; width:32%; padding:0.75em; background-color: #fff; margin-bottom: 20pt;}
+.onoff:nth-child(2) {margin:0 2%;}
+.onoff_name {margin:0.5em; font-size:1.125em;}
+.onoff_day {margin:0.5em; font-size:1em;}
+.onoff_cont {margin:0.5em; font-size:0.875em;}
 /*
-.city:nth-child(1) {animation-name:leftAni; animation-duration:0.5s; animation-fill-mode:forwards; opacity:0;}
-.city:nth-child(2) {animation-name:scaleAni; animation-duration:0.5s; animation-fill-mode:forwards; opacity:0;}
-.city:nth-child(3) {animation-name:rightAni; animation-duration:0.5s; animation-fill-mode:forwards; opacity:0;}
+.onoff:nth-child(1) {animation-name:leftAni; animation-duration:0.5s; animation-fill-mode:forwards; opacity:0;}
+.onoff:nth-child(2) {animation-name:scaleAni; animation-duration:0.5s; animation-fill-mode:forwards; opacity:0;}
+.onoff:nth-child(3) {animation-name:rightAni; animation-duration:0.5s; animation-fill-mode:forwards; opacity:0;}
 */
 
+
+div{
+    border: 1px dotted #CCC;
+}
+
+.offer-cards{    
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+}
+
+.offer-card{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+.offer-card card-body {
+	display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    flex:  1 0 auto;
+    background: #00897B;
+          padding: 10px;
+}
+.offer-card a {
+	display: block;
+	color: white;
+	padding: 50px;
+}
+.offer-card a:hover {
+	background: rgba(0,0,0,0.2);
+	text-decoration: none;
+}
 @keyframes leftAni {
 	0% {transform:translateX(-200px); opacity:0;}
 	50% {opacity:1;}
